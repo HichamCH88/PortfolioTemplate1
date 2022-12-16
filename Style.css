@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+.container{
+    background-color: black;
+}
+.salute{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+.textContainer{
+    flex:3;
+}
+.SaluteText{
+    font-size: 60vw;
+    color:#333;
+}
+.imgContainer{
+    flex: 1;
+}
+.saluteImg{
+    width:100%;
+}
+.nameContainer{
+    height: 100vh;
+    background-color: #3CCF4E;
+}
+.name{
+    font-size: 16vw;
+    color:#333;
+    cursor:default;
+    text-align: center;
+    line-height: 100vh;
+}
+.jobTitleContainer{
+    height: 100vh;
+    
+}
+
+.dark{
+    background: url(./img/bg3.png);
+   
+}
+
+.green{
+    background: url(./img/bg1.png);
+    background-color: #3CCF4E;
+    width: 100%;
+}
+.jobTitle{
+    font-size: 8vw;
+    color:#333;
+    cursor:default;
+    line-height: 100vh;
+}
